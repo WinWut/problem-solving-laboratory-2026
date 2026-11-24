@@ -13,7 +13,6 @@ int main() {
         cin >> x;
         arr[x] += 1;
     }
-    cout<<arr[300]<<"\n";
     int maxn = arr[0];           // กำหนดค่าเริ่มต้นด้วยตัวแรกของ list
     for (int i = 0; i <= 300; ++i) {
         if (arr[i] > maxn) {     // ตรวจสอบว่าค่าปัจจุบันมากกว่า maxn ไหม
